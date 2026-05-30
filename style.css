@@ -1,14 +1,31 @@
-* {}
+.titulo {
+    font-size: 80px;
+}
 
 h1 {
     color: white;
 }
 
-.poesia {
-    padding: 30px;
-    background-color: darkorchid;
-    
+.wrapper-poesia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.poesia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px 40px;
+    background-color: rgb(146, 80, 179);
+    border-radius: 30px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+
 
 body {
     background-color: rgb(85, 33, 85);
