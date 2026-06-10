@@ -1,16 +1,36 @@
 .titulo {
-    font-size: 80px;
-}
-
-h1 {
-    color: white;
-}
-
-.wrapper-poesia {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 80px;
+    font-weight: 600;
+    padding: 20px 0 50px 0;
+}
+
+p, h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+img {
+    border-radius: 18px ;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px 0 10px 0;
+}
+
+.wrapper-poesia {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 200px 0px 200px ;
+    gap: 20px;
 }
 
 .poesia {
@@ -20,9 +40,9 @@ h1 {
     width: fit-content;
     padding: 20px 40px;
     background-color: rgb(146, 80, 179);
-    border-radius: 30px;
-    margin-bottom: 20px;
-    max-width: 600px;
+    border-radius: 22px;
+    max-width: 80%;
+    min-width: 400px;
 }
 
 
